@@ -45,6 +45,12 @@ public class RegistroPersonaIU extends javax.swing.JFrame {
 
         jLabel3.setText("Nombres del Docente:");
 
+        txtNombres.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNombresActionPerformed(evt);
+            }
+        });
+
         btnNuevo.setText("Nuevo");
         btnNuevo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,6 +162,10 @@ public class RegistroPersonaIU extends javax.swing.JFrame {
         listaIU.setVisible(true);
         
     }//GEN-LAST:event_btnVerListaActionPerformed
+
+    private void txtNombresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombresActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNombresActionPerformed
 
     /**
      * @param args the command line arguments
